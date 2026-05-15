@@ -1,0 +1,13 @@
+total 44
+-rw-rw-r-- 1 abdul-azeem abdul-azeem  1523 Mar 17 15:08 analyze.sh
+-rw-rw-r-- 1 abdul-azeem abdul-azeem   250 Mar 17 15:00 commands.txt
+-rw-rw-r-- 1 abdul-azeem abdul-azeem  2611 Mar 17 23:23 README.md
+-rw-rw-r-- 1 abdul-azeem abdul-azeem     0 Apr 27 22:43 run.log
+-rwxrwxr-x 1 abdul-azeem abdul-azeem 16904 Apr 27 22:39 runner
+-rw-rw-r-- 1 abdul-azeem abdul-azeem  4165 Apr 27 22:11 runner.c
+-rw-rw-r-- 1 abdul-azeem abdul-azeem    33 Apr 27 22:41 tasks.txt
+Hello World
+[1] CMD="ls -l" => RESULT=EXIT(0) TIME=0.01
+[2] CMD="sleep 2" => RESULT=EXIT(0) TIME=2.01
+[3] CMD="echo "Hello World"" => RESULT=EXIT(0) TIME=0.02
+SUMMARY total=3 ok=3 fail=0 timeout=0 signaled=0
