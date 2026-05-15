@@ -1,0 +1,19 @@
+# Compile with warnings enabled
+gcc -Wall -Wextra -O2 runner.c -o runner
+
+# Run in lenient mode (doesn't stop on errors)
+./runner tasks.txt 5 lenient
+
+# Run in strict mode (aborts on first failure)
+./runner tasks.txt 5 strict
+
+# 1. Create the log
+./runner tasks.txt 5 lenient > my_run.log
+
+# 2. Give execution permissions
+chmod +x analyze.sh
+
+# 3. Run the analysis
+./analyze.sh my_run.log
+
+bash -x analyze.sh my_run.log
